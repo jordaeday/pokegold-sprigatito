@@ -779,7 +779,7 @@ IntroScene10:
 	ld bc, vTiles1 - vTiles0
 	call Decompress
 
-	ld c, CHIKORITA
+	ld c, SPRIGATITO
 	ld de, vTiles0 tile $10
 	farcall Intro_GetMonFrontpic
 	ld c, CYNDAQUIL
@@ -1000,8 +1000,8 @@ Intro_CheckSCYEvent:
 	jp hl
 
 .scy_jumptable
-	dbw $86, Intro_LoadChikoritaPalette
-	dbw $87, Intro_ChikoritaAppears
+	dbw $86, Intro_LoadSprigatitoPalette
+	dbw $87, Intro_SprigatitoAppears
 	dbw $88, Intro_FlashMonPalette
 	dbw $98, Intro_FlashSilhouette
 	dbw $99, Intro_LoadCyndaquilPalette
@@ -1015,11 +1015,11 @@ Intro_CheckSCYEvent:
 	dbw $e9, Intro_LoadCharizardPalette
 	db -1
 
-Intro_ChikoritaAppears:
+Intro_SprigatitoAppears:
 	ld de, SFX_GS_INTRO_POKEMON_APPEARS
 	call PlaySFX
 	depixel 22, 1
-	ld a, SPRITE_ANIM_OBJ_GS_INTRO_CHIKORITA
+	ld a, SPRITE_ANIM_OBJ_GS_INTRO_SPRIGATITO
 	call InitSpriteAnimStruct
 	ret
 
@@ -1053,8 +1053,8 @@ Intro_FlashSilhouette:
 	call DmgToCgbBGPals
 	ret
 
-Intro_LoadChikoritaPalette:
-	ld c, CHIKORITA
+Intro_LoadSprigatitoPalette:
+	ld c, SPRIGATITO
 	farcall Intro_LoadMonPalette
 	ret
 

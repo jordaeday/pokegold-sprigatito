@@ -20,7 +20,7 @@ SpriteAnimFrameData:
 	dw .Frameset_GSIntroPikachuTail
 	dw .Frameset_GSIntroPikachuTail2
 	dw .Frameset_GSIntroFireball
-	dw .Frameset_GSIntroChikorita
+	dw .Frameset_GSIntroSprigatito
 	dw .Frameset_GSIntroCyndaquil
 	dw .Frameset_GSIntroTotodile
 	dw .Frameset_GSTitleTrail
@@ -161,8 +161,8 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_GS_INTRO_BIG_FIREBALL,  1
 	oamdelete
 
-.Frameset_GSIntroChikorita:
-	oamframe SPRITE_ANIM_OAMSET_GS_INTRO_CHIKORITA, 24
+.Frameset_GSIntroSprigatito:
+	oamframe SPRITE_ANIM_OAMSET_GS_INTRO_SPRIGATITO, 24
 	oamdelete
 
 .Frameset_GSIntroCyndaquil:

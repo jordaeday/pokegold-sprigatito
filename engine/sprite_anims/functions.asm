@@ -28,7 +28,7 @@ DoSpriteAnimFrame:
 	dw AnimSeq_GSIntroPikachu
 	dw AnimSeq_GSIntroPikachuTail
 	dw AnimSeq_GSIntroFireball
-	dw AnimSeq_GSIntroChikoritaTotodile
+	dw AnimSeq_GSIntroSprigatitoTotodile
 	dw AnimSeq_GSIntroCyndaquil
 	dw AnimSeq_GSTitleTrail
 	dw AnimSeq_UnusedPikachu
@@ -627,7 +627,7 @@ AnimSeq_GSIntroFireball:
 	ld [hl], a
 	ret
 
-AnimSeq_GSIntroChikoritaTotodile:
+AnimSeq_GSIntroSprigatitoTotodile:
 	call AnimSeqs_AnonJumptable
 	jp hl
 .anon_dw

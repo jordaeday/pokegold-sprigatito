@@ -2053,8 +2053,8 @@ MewEvosAttacks:
 	db 50, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
-ChikoritaEvosAttacks:
-	db EVOLVE_LEVEL, 16, BAYLEEF
+SprigatitoEvosAttacks:
+	db EVOLVE_LEVEL, 16, FLORAGATO
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2068,8 +2068,8 @@ ChikoritaEvosAttacks:
 	db 50, SOLARBEAM
 	db 0 ; no more level-up moves
 
-BayleefEvosAttacks:
-	db EVOLVE_LEVEL, 32, MEGANIUM
+FloragatoEvosAttacks:
+	db EVOLVE_LEVEL, 32, MEOWSCARADA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2085,7 +2085,7 @@ BayleefEvosAttacks:
 	db 55, SOLARBEAM
 	db 0 ; no more level-up moves
 
-MeganiumEvosAttacks:
+MeowscaradaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL

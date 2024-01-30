@@ -2,9 +2,9 @@
 
 NewPokedexOrder:
 	table_width 1, NewPokedexOrder
-	db CHIKORITA
-	db BAYLEEF
-	db MEGANIUM
+	db SPRIGATITO
+	db FLORAGATO
+	db MEOWSCARADA
 	db CYNDAQUIL
 	db QUILAVA
 	db TYPHLOSION
